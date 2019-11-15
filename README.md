@@ -12,7 +12,7 @@ yarn add demo-listview
 
 Then use it in your app.
 
-```
+```JavaScript
 import React, { Component } from 'react';
 import ListView from './components/list-view';
 
