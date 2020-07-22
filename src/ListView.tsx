@@ -15,7 +15,6 @@ const ListView: React.FC<Props> = ({ data }) => {
             <ul>
                 {
                     data.map((e: Message, i: any) => {
-                        console.log(e)
                         return (
                             <li key={i}>{e.message}</li>
                         )

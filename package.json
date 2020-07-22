@@ -1,15 +1,15 @@
 {
   "name": "demo-listview",
-  "version": "1.1.1",
-  "description": "",
+  "version": "1.1.6",
+  "description": "A List component for React",
   "author": "Krishna",
   "private": false,
-  "main": "dist/main.js",
+  "types": "lib/ListView.d.ts",
+  "main": "lib/ListView",
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "build": "webpack",
-    "start": "react-scripts start"
+    "build": "tsc"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,15 +30,14 @@
     "react-scripts": "3.4.1",
     "source-map-loader": "^1.0.1",
     "ts-loader": "^8.0.1",
-    "typescript": "^3.9.7",
-    "webpack-cli": "^3.3.12"
+    "typescript": "^3.9.7"
   },
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "repository": {
     "type": "git",
