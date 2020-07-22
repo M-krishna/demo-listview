@@ -44,7 +44,7 @@ class App extends Component {
 
 There is only one prop for now. We will add more features in the future.
 
-* listData - accepts an array of Objects, in which the key of the object              must be message.
+* listData - accepts an array of Objects, in which the key of the object must be message.
 
 # License
 
